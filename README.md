@@ -1,5 +1,10 @@
 # Git Automation Test
 
+This 'cloudbeesGitAutomationAssignment' repo contains the source code to automate these 2 test cases:
+1. Given a git repo, clone it, add a new file with some content to this repo (file name and content should be an input)
+2. Given a git repo, clone it, update an existing file by appending new content to this repo (file name and content should be an input)
+
+
 ## Assumptions
 
 - Java 17+ is installed
@@ -8,6 +13,10 @@
 - The repo has:
   - At least one existing file named 'README.md'
   - Write access granted to the user executing this script
+- Created Maven based Java project
+- Used TestNG as a testing framework and Allure for reporting.
+- Git Repo will only be cloned if the provided repo is not cloned already in the provided directory.
+- Git Cloning operation will be skipped if directory already exists.
 
 ## How It Works
 
