@@ -7,7 +7,7 @@ This 'cloudbeesGitAutomationAssignment' repo contains the source code to automat
 
 ## Assumptions
 
-- Java 17+ is installed
+- Java 17 or higher version is installed
 - Git CLI is installed and available in system PATH
 - Git credentials (via HTTPS or SSH) are already set up locally (cached or configured)
 - The repo has:
@@ -16,7 +16,7 @@ This 'cloudbeesGitAutomationAssignment' repo contains the source code to automat
 - Created Maven based Java project
 - Used TestNG as a testing framework and Allure for reporting.
 - Git Repo will only be cloned if the provided repo is not cloned already in the provided directory.
-- Git Cloning operation will be skipped if directory already exists.
+- Git Cloning operation will be skipped if directory already exists
 
 ## How It Works
 
